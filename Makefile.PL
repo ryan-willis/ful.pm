@@ -1,7 +1,7 @@
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
-    ABSTRACT      => 'A fülish "find upper lib" pragma',
+    ABSTRACT      => 'A foolish "find upper lib" pragma',
     AUTHOR        => 'Ryan Willis <code@ryanwillis.com>',
     DISTNAME      => 'ful',
     LICENSE       => 'mit',
@@ -26,7 +26,7 @@ WriteMakefile(
         'Test::Most' => '0.30',
     },
     NAME          => 'ful',
-    VERSION_FROM  => 'lib/ful.pm',
+    VERSION_FROM  => 'ful.pm',
     test => { TESTS => 't/*.t t/t2/t3/*.t t/t2/t3/t/*.t' },
     dist => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
 );

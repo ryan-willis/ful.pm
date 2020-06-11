@@ -1,5 +1,5 @@
 {
-   "abstract" : "A fÃ¼lish \"find upper lib\" pragma",
+   "abstract" : "A foolish \"find upper lib\" pragma",
    "author" : [
       "Ryan Willis <code@ryanwillis.com>"
    ],
@@ -52,6 +52,6 @@
          "web" : "https://github.com/ryan-willis/p5-ful"
       }
    },
-   "version" : "0.02",
+   "version" : "0.03",
    "x_serialization_backend" : "JSON::PP version 4.02"
 }

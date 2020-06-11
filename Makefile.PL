@@ -1,19 +1,9 @@
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
-    NAME          => 'ful',
-    VERSION_FROM  => 'lib/ful.pm',
     ABSTRACT      => 'A fülish "find upper lib" pragma',
     AUTHOR        => 'Ryan Willis <code@ryanwillis.com>',
-    PREREQ_PM     => {
-        'strict'     => 0,
-        'warnings'   => 0,
-        'Cwd'        => '3.26',
-        'File::Spec' => '3.32',
-    },
-    TEST_REQUIRES => {
-        'Test::Most' => '0.30',
-    },
+    DISTNAME      => 'ful',
     LICENSE       => 'mit',
     META_MERGE    => {
         'meta-spec'    => { version => 2 },
@@ -26,6 +16,17 @@ WriteMakefile(
             },
         },
     },
+    PREREQ_PM     => {
+        'strict'     => 0,
+        'warnings'   => 0,
+        'Cwd'        => '3.26',
+        'File::Spec' => '3.32',
+    },
+    TEST_REQUIRES => {
+        'Test::Most' => '0.30',
+    },
+    NAME          => 'ful',
+    VERSION_FROM  => 'lib/ful.pm',
     test => { TESTS => 't/*.t t/t2/t3/*.t t/t2/t3/t/*.t' },
     dist => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
 );

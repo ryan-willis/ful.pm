@@ -10,8 +10,8 @@ WriteMakefile(
         resources => {
             repository => {
                 type => 'git',
-                url  => 'git://github.com/ryan-willis/p5-ful.git',
-                web  => 'https://github.com/ryan-willis/p5-ful',
+                url  => 'git://github.com/ryan-willis/p5-Acme-ful.git',
+                web  => 'https://github.com/ryan-willis/p5-Acme-ful',
             },
         },
     },

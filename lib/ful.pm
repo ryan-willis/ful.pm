@@ -60,7 +60,7 @@ Instead of:
 =head1 SUPPORT
 
 Support is by the author. Please file bug reports or ask questions at
-L<https://github.com/ryan-willis/p5-ful/issues>.
+L<https://github.com/ryan-willis/p5-Acme-ful/issues>.
 
 =cut
 

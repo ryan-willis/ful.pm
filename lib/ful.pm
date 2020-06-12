@@ -55,7 +55,7 @@ Instead of:
 
 =head1 VERSION
 
-0.04
+0.05
 
 =head1 SUPPORT
 
@@ -64,7 +64,7 @@ L<https://github.com/ryan-willis/p5-ful/issues>.
 
 =cut
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 use Cwd;
 use File::Spec;

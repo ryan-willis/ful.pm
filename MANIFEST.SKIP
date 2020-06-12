@@ -1,7 +1,7 @@
 cover_db/
 blib/
 .vscode/
-.git/
+^.git/
 .DS_Store
 pm_to_blib
 Makefile$
@@ -9,3 +9,4 @@ Makefile\.old
 MYMETA\.
 MANIFEST\.bak
 Acme-ful
+scripts/

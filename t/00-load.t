@@ -14,7 +14,7 @@ use_ok('ful', { target_file => '.project-base' });
 
 use_ok('ful', { git => 1 });
 
-use_ok('ful', { dir => 't' });
+use_ok('ful', { dir => '.nonexistent' });
 
 use_ok('ful', { has_dir => 't' });
 

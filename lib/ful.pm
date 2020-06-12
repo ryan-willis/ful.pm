@@ -3,7 +3,7 @@ use warnings;
 
 package ful;
 
-our $VERSION = '0.03';
+our $VERSION = '0.01';
 
 use Cwd;
 use File::Spec;
@@ -65,4 +65,59 @@ sub _heaven  { $cursor eq $FS->rootdir }
 
 1;
 
-__END__
+=encoding utf-8
+
+=head1 NAME
+
+ful - a useI<ful> "B<f>ind B<u>pper B<l>ib" pragma that ascends dirs to include
+module directories in C<@INC>.
+
+=head1 SYNOPSIS
+
+One line to rule them all.
+
+    use ful;
+
+Within C<a-script.pl> when your project looks like this:
+
+    project-root/
+    ├── bin/
+    │   └── utils/
+    │       └── a-script.pl
+    ├── lib/
+    ├── vendor/
+    │   └── SomeOrg/
+    │       └── Some/
+    │           └── Module.pm
+
+And that's it.
+
+And if you need more than just the C<project-root/lib> dir, you can do this:
+
+    use ful qw/vendor lib/;
+
+Instead of:
+
+    use lib::relative '../../lib';
+    use lib::relative '../../vendor';
+    # or
+    use FindBin;
+    use lib "$FindBin::Bin/../lib";
+    use lib "$FindBin::Bin/../vendor";
+    # or even
+    BEGIN {
+        use Path::Tiny;
+        my $base = path(__FILE__)->parent;
+        $base = $base->parent until -d "$base/lib" or $base->is_rootdir;
+        unshift @INC, "$base/lib", "$base/vendor";
+    }
+
+
+=head1 VERSION
+
+0.03
+
+=head1 SUPPORT
+
+Support is by the author. Please file bug reports or ask questions at
+L<https://github.com/ryan-willis/p5-ful/issues>.

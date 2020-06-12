@@ -5,7 +5,7 @@ use ful {
     libdirs => [qw/lib vendor/],
 };
 
-use_ok('Proof03_1');
-use_ok('Proof03_2');
+use_ok('Proof05_1');
+use_ok('Proof05_2');
 
 done_testing;

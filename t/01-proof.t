@@ -5,7 +5,7 @@ use ful;
 use_ok('Proof01');
 
 eval {
-    require Proof02_1;
+    require Proof02;
 };
 
 ok $@;

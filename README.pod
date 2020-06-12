@@ -2,19 +2,8 @@
 
 =head1 NAME
 
-ful - a useI<B<ful>> pragma that will ascend dirs to automatically
-"B<f>ind B<u>pper B<l>ib" directories and add them to C<@INC>.
-
-
-=head1 NOTICE
-
-If you felt your blood boil when you first discovered this module, don't worry,
-you're not alone.
-
-This module name not only effectively breaks all of the "rules," but is also
-non-descript, duplicates existing functionality, and is purely a vanity project.
-
-(Maybe you should C<use common::sense;>)
+ful - a useI<ful> "B<f>ind B<u>pper B<l>ib" pragma that ascends dirs to include
+module directories in C<@INC>.
 
 =head1 SYNOPSIS
 
@@ -34,7 +23,9 @@ Within C<a-script.pl> when your project looks like this:
     │       └── Some/
     │           └── Module.pm
 
-If you need more than just the C<project-root/lib> directory, you can do this:
+And that's it.
+
+And if you need more than just the C<project-root/lib> dir, you can do this:
 
     use ful qw/vendor lib/;
 

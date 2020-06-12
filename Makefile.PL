@@ -24,8 +24,9 @@ WriteMakefile(
     TEST_REQUIRES => {
         'Test::Most' => '0.30',
     },
-    NAME => 'Acme-ful',
+    NAME => 'Acme::ful',
+    DISTNAME => 'Acme-ful',
     VERSION_FROM => 'lib/ful.pm',
     test => { TESTS => 't/*.t t/t2/*.t t/t2/t3/*.t t/t2/t3/t/*.t' },
-    dist => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
+    dist => { TAR => 'gtar', COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
 );

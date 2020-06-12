@@ -4,9 +4,20 @@ WriteMakefile(
     ABSTRACT => 'A nifty "find upper lib" pragma',
     AUTHOR => 'Ryan Willis <code@ryanwillis.com>',
     LICENSE => 'mit',
+    MIN_PERL_VERSION => '5.26.1',
     META_MERGE => {
         'meta-spec'    => { version => 2 },
         dynamic_config => 1,
+        provides => {
+            'Acme::ful' => {
+                file => 'lib/Acme/ful.pm',
+                version => '0.07',
+            },
+            'ful' => {
+                file => 'lib/ful.pm',
+                version => '0.07',
+            },
+        },
         resources => {
             repository => {
                 type => 'git',

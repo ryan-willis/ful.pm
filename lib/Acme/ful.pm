@@ -1,10 +1,11 @@
 use strict;
+use warnings;
 
 package Acme::ful;
 
 use parent 'ful';
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 1;
 

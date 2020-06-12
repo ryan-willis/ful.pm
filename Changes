@@ -1,4 +1,7 @@
 
+0.07  2020-06-12
+  - final changes for Kwalitee
+
 0.06  2020-06-12
   - Added LICENSE text to modules
   - tar -> gtar since I publish from MacOS

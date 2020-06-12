@@ -78,7 +78,7 @@ SOFTWARE.
 
 =head1 VERSION
 
-0.06
+0.07
 
 =head1 SUPPORT
 
@@ -87,7 +87,7 @@ L<https://github.com/ryan-willis/p5-Acme-ful/issues>.
 
 =cut
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 use Cwd;
 use File::Spec;

@@ -31,6 +31,6 @@ jobs:
         mkdir -p t/t2/.git
         touch t/t2/.git/config
         perl Makefile.PL
-        cpanm Test::More
+        cpanm Test::Most
         make
         make test

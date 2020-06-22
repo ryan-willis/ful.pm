@@ -24,5 +24,7 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Run tests
       run: |
+        touch t/t2/.git/config
         perl Makefile.PL
+        make
         make test

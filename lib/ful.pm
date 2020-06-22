@@ -98,6 +98,8 @@ my $FS = 'File::Spec';
 
 our $crum = undef;
 
+sub crum { $crum }
+
 sub import {
     my $me = shift;
 

@@ -6,7 +6,7 @@ nytprof.out
 blib
 bin/
 ful-*.tar.gz
-.vscode
+.vs*
 cover_db
 MANIFEST.bak
 MYMETA*

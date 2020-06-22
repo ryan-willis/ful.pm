@@ -4,7 +4,6 @@
 
 <p>
     <img src="https://cpants.cpanauthors.org/release/RWILLIS/Acme-ful-0.07.svg" />
-    <img src=""
 </p>
 
 =cut

@@ -6,7 +6,7 @@
     <img src="https://cpants.cpanauthors.org/release/RWILLIS/Acme-ful-0.07.svg" />
 </p>
 
-=cut
+=end HTML
 
 =head1 NAME
 

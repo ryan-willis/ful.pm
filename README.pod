@@ -1,5 +1,13 @@
 =encoding utf-8
 
+=begin HTML
+
+<p>
+    <img src="https://cpants.cpanauthors.org/release/RWILLIS/Acme-ful-0.07.svg" />
+</p>
+
+=end HTML
+
 =head1 NAME
 
 ful - a useI<ful> "B<f>ind B<u>pper B<l>ib" pragma that ascends dirs to include

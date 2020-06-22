@@ -2,6 +2,7 @@ cover_db/
 blib/
 ^.vs
 ^.git
+^.travis
 .DS_Store
 pm_to_blib
 Makefile$

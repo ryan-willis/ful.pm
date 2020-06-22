@@ -14,6 +14,22 @@ module directories in C<@INC>.
 
 =head1 SYNOPSIS
 
+=begin HTML
+
+<p>
+    <a href="https://cpants.cpanauthors.org/release/RWILLIS/Acme-ful-0.07">
+        <img src="https://cpants.cpanauthors.org/release/RWILLIS/Acme-ful-0.07.svg" alt="CPAN Module Quality" />
+    </a>
+    <a href="https://travis-ci.org/github/ryan-willis/p5-Acme-ful">
+        <img src="https://travis-ci.org/ryan-willis/p5-Acme-ful.svg?branch=master" alt="Build Status" />
+    </a>
+    <a href="https://coveralls.io/github/ryan-willis/p5-Acme-ful?branch=master">
+        <img src="https://coveralls.io/repos/github/ryan-willis/p5-Acme-ful/badge.svg?branch=master" alt="Coverage Status" />
+    </a>
+</p>
+
+=end HTML
+
 One line to rule them all.
 
     use ful;

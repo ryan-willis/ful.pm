@@ -1,0 +1,17 @@
+language: perl
+perl:
+  - "5.30.1"
+
+before_install:
+  - cpanm -n Devel::Cover::Report::Coveralls Test::Most
+  - mkdir -p t/t2/.git
+  - touch t/t2/.git/config
+
+install:
+  - perl Makefile.PL
+  - make
+
+script: "make test"
+
+after_success:
+  - cover -test -report coveralls

@@ -17,8 +17,8 @@ module directories in C<@INC>.
 =begin HTML
 
 <span>
-    <a href="https://cpants.cpanauthors.org/release/RWILLIS/Acme-ful-0.09">
-        <img src="https://cpants.cpanauthors.org/release/RWILLIS/Acme-ful-0.09.svg" alt="CPAN Module Quality" />
+    <a href="https://cpants.cpanauthors.org/release/RWILLIS/Acme-ful-0.10">
+        <img src="https://cpants.cpanauthors.org/release/RWILLIS/Acme-ful-0.10.svg" alt="CPAN Module Quality" />
     </a>
     <a href="https://travis-ci.org/github/ryan-willis/p5-Acme-ful">
         <img src="https://travis-ci.org/ryan-willis/p5-Acme-ful.svg?branch=master" alt="Build Status" />
@@ -161,7 +161,7 @@ SOFTWARE.
 
 =head1 VERSION
 
-0.09
+0.10
 
 =head1 SUPPORT
 
@@ -170,7 +170,7 @@ L<https://github.com/ryan-willis/p5-Acme-ful/issues>.
 
 =cut
 
-our $VERSION = '0.09';
+our $VERSION = '0.10';
 
 use Cwd;
 use File::Spec;

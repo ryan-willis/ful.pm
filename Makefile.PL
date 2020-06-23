@@ -11,11 +11,11 @@ WriteMakefile(
         provides => {
             'Acme::ful' => {
                 file => 'lib/Acme/ful.pm',
-                version => '0.09',
+                version => '0.10',
             },
             'ful' => {
                 file => 'lib/ful.pm',
-                version => '0.09',
+                version => '0.10',
             },
         },
         resources => {
@@ -34,6 +34,7 @@ WriteMakefile(
     },
     TEST_REQUIRES => {
         'Test::Most' => '0.30',
+        'Test::Pod::Coverage' => '1.10',
     },
     NAME => 'Acme::ful',
     DISTNAME => 'Acme-ful',

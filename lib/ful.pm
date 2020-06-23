@@ -17,8 +17,8 @@ module directories in C<@INC>.
 =begin HTML
 
 <span>
-    <a href="https://cpants.cpanauthors.org/release/RWILLIS/Acme-ful-0.08">
-        <img src="https://cpants.cpanauthors.org/release/RWILLIS/Acme-ful-0.08.svg" alt="CPAN Module Quality" />
+    <a href="https://cpants.cpanauthors.org/release/RWILLIS/Acme-ful-0.09">
+        <img src="https://cpants.cpanauthors.org/release/RWILLIS/Acme-ful-0.09.svg" alt="CPAN Module Quality" />
     </a>
     <a href="https://travis-ci.org/github/ryan-willis/p5-Acme-ful">
         <img src="https://travis-ci.org/ryan-willis/p5-Acme-ful.svg?branch=master" alt="Build Status" />
@@ -79,6 +79,16 @@ If you need more than just the C<project-root/lib> dir, you can do this:
     use ful qw/vendor lib/;
     use Some::Module;
     use SomeOrg::Some::Module;
+
+=head1 METHODS
+
+=over 4
+
+=item * crum()
+
+Returns the parent directory for the latest addition to C<@INC>.
+
+=back
 
 =head1 ADVANCED
 
@@ -151,7 +161,7 @@ SOFTWARE.
 
 =head1 VERSION
 
-0.08
+0.09
 
 =head1 SUPPORT
 
@@ -160,7 +170,7 @@ L<https://github.com/ryan-willis/p5-Acme-ful/issues>.
 
 =cut
 
-our $VERSION = '0.08';
+our $VERSION = '0.09';
 
 use Cwd;
 use File::Spec;

@@ -11,11 +11,11 @@ WriteMakefile(
         provides => {
             'Acme::ful' => {
                 file => 'lib/Acme/ful.pm',
-                version => '0.08',
+                version => '0.09',
             },
             'ful' => {
                 file => 'lib/ful.pm',
-                version => '0.08',
+                version => '0.09',
             },
         },
         resources => {

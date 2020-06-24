@@ -10,14 +10,17 @@ module directories in C<@INC>.
 =begin HTML
 
 <span>
-    <a href="https://cpants.cpanauthors.org/release/RWILLIS/Acme-ful-0.10">
-        <img src="https://cpants.cpanauthors.org/release/RWILLIS/Acme-ful-0.10.svg" alt="CPAN Module Quality" />
+    <a href="https://badge.fury.io/pl/Acme-ful">
+        <img src="https://badge.fury.io/pl/Acme-ful.svg" alt="CPAN Current Version" height="18">
     </a>
-    <a href="https://travis-ci.org/github/ryan-willis/p5-Acme-ful">
-        <img src="https://travis-ci.org/ryan-willis/p5-Acme-ful.svg?branch=master" alt="Build Status" />
+    <a href="https://cpants.cpanauthors.org/release/RWILLIS/Acme-ful-0.11">
+        <img src="https://cpants.cpanauthors.org/release/RWILLIS/Acme-ful-0.11.svg" alt="CPAN Module Quality" />
     </a>
-    <a href="https://coveralls.io/github/ryan-willis/p5-Acme-ful?branch=master">
-        <img src="https://coveralls.io/repos/github/ryan-willis/p5-Acme-ful/badge.svg?branch=master" alt="Coverage Status" />
+    <a href="https://travis-ci.org/github/ryan-willis/ful.pm">
+        <img src="https://travis-ci.org/ryan-willis/ful.pm.svg?branch=master" alt="Build Status" />
+    </a>
+    <a href="https://coveralls.io/github/ryan-willis/ful.pm?branch=master">
+        <img src="https://coveralls.io/repos/github/ryan-willis/ful.pm/badge.svg?branch=master" alt="Coverage Status" />
     </a>
 </span>
 
@@ -154,9 +157,9 @@ SOFTWARE.
 
 =head1 VERSION
 
-0.10
+0.11
 
 =head1 SUPPORT
 
 Support is by the author. Please file bug reports or ask questions at
-L<https://github.com/ryan-willis/p5-Acme-ful/issues>.
+L<https://github.com/ryan-willis/ful.pm/issues>.

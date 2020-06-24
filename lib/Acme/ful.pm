@@ -5,7 +5,7 @@ package Acme::ful;
 
 use parent 'ful';
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 1;
 

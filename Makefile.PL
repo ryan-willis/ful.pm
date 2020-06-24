@@ -11,18 +11,18 @@ WriteMakefile(
         provides => {
             'Acme::ful' => {
                 file => 'lib/Acme/ful.pm',
-                version => '0.10',
+                version => '0.11',
             },
             'ful' => {
                 file => 'lib/ful.pm',
-                version => '0.10',
+                version => '0.11',
             },
         },
         resources => {
             repository => {
                 type => 'git',
-                url  => 'git://github.com/ryan-willis/p5-Acme-ful.git',
-                web  => 'https://github.com/ryan-willis/p5-Acme-ful',
+                url  => 'git://github.com/ryan-willis/ful.pm.git',
+                web  => 'https://github.com/ryan-willis/ful.pm',
             },
         },
     },
